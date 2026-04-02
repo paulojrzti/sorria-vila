@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
@@ -200,6 +200,8 @@
       color: #aaa;
       margin-bottom: 32px;
       line-height: 1.7;
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
     }
 
     .hero-proof {
@@ -214,10 +216,12 @@
     }
 
     .hero-proof-item strong {
-      font-family: 'Playfair Display', serif;
+      font-family: 'Inter', sans-serif;
       font-size: 1.8rem;
+      font-weight: 800;
       color: var(--gold);
       line-height: 1;
+      letter-spacing: -0.02em;
     }
 
     .hero-proof-item span {
@@ -293,7 +297,9 @@
       align-items: center;
       gap: 12px;
       color: #ccc;
-      font-size: 0.88rem;
+      font-size: 0.85rem;
+      font-family: 'Inter', sans-serif;
+      font-weight: 400;
     }
 
     .cred-icon {
@@ -310,7 +316,7 @@
       font-size: 0.9rem;
     }
 
-    .cred-item strong { color: var(--gold-light); display: block; font-size: 0.82rem; }
+    .cred-item strong { color: var(--gold-light); display: block; font-size: 0.80rem; font-family: 'Inter', sans-serif; font-weight: 700; letter-spacing: 0.04em; }
 
     /* ─── DOR ESPELHO EMOCIONAL ─── */
     .pain-section {
@@ -369,14 +375,16 @@
     .pain-callout {
       background: var(--black);
       color: var(--gold-light);
-      font-family: 'Playfair Display', serif;
-      font-size: clamp(1.1rem, 2vw, 1.5rem);
-      font-style: italic;
+      font-family: 'Inter', sans-serif;
+      font-size: clamp(1rem, 2vw, 1.3rem);
+      font-weight: 400;
+      font-style: normal;
       text-align: center;
       padding: 32px 40px;
       border-radius: 4px;
       border-left: 4px solid var(--gold);
       position: relative;
+      line-height: 1.7;
     }
 
     .pain-callout::before {
@@ -420,10 +428,8 @@
     }
 
     .before-after-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 24px;
-      margin-bottom: 48px;
+      max-width: 800px;
+      margin: 0 auto 48px;
     }
 
     .ba-card {
@@ -503,19 +509,22 @@
     }
 
     .result-item .number {
-      font-family: 'Playfair Display', serif;
-      font-size: 2.4rem;
+      font-family: 'Inter', sans-serif;
+      font-size: 2.2rem;
+      font-weight: 800;
       color: var(--gold);
       line-height: 1;
       margin-bottom: 6px;
+      letter-spacing: -0.02em;
     }
 
     .result-item p {
-      font-size: 0.8rem;
+      font-size: 0.78rem;
       color: #888;
       text-transform: uppercase;
       letter-spacing: 0.06em;
       line-height: 1.4;
+      font-family: 'Inter', sans-serif;
     }
 
     /* ─── SOLUÇÃO / SERVIÇOS ─── */
@@ -1296,25 +1305,25 @@
           <em>fixos de verdade.</em>
         </h1>
         <p class="hero-sub">
-          Implantes dentários e Prótese Protocolo com tecnologia de ponta, procedimento sem dor e resultado que parece 100% natural. Avaliação completa com raio-X incluso.
+          Implantes dentários e Prótese Protocolo com tecnologia de ponta e resultado que parece 100% natural. Avaliação completa com raio-X incluso.
         </p>
         <div class="hero-proof">
           <div class="hero-proof-item">
-            <strong>+500</strong>
-            <span>Pacientes<br/>Transformados</span>
-          </div>
-          <div class="hero-proof-item">
-            <strong>10+</strong>
+            <strong>+10</strong>
             <span>Anos de<br/>Especialização</span>
           </div>
           <div class="hero-proof-item">
             <strong>100%</strong>
-            <span>Humanizado<br/>e Sem Dor</span>
+            <span>Atendimento<br/>Humanizado</span>
+          </div>
+          <div class="hero-proof-item">
+            <strong>CRO/10574</strong>
+            <span>Dra. Thaís Reis</span>
           </div>
         </div>
         <a href="https://wa.me/5527999258981?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20minha%20avaliação%20gratuita." class="btn-whatsapp">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.556 4.123 1.528 5.855L0 24l6.335-1.652A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.8 9.8 0 01-5.028-1.383l-.361-.214-3.735.976.997-3.635-.235-.374A9.786 9.786 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/></svg>
-          Quero Voltar a Sorrir Agendar Avaliação
+          Agendar Avaliação
         </a>
         <p class="hero-disclaimer">
           <svg width="12" height="12" viewBox="0 0 12 12" fill="none"><path d="M6 1a5 5 0 100 10A5 5 0 006 1zm.5 7.5h-1v-4h1v4zm0-5h-1V2.5h1V3.5z" fill="#555"/></svg>
@@ -1322,10 +1331,10 @@
         </p>
       </div>
       <div class="hero-image-wrap">
-        <img src="antesdepois-hero.webp" alt="Antes e depois real Protocolo Tríade Odontologia" />
+        <img src="dra-hero.jpg" alt="Dra. Thais — Especialista em Implantodontia Tríade Odontologia" style="object-position: top;" />
         <div class="hero-image-badge">
-          <strong>Antes / Depois</strong>
-          <span>Resultado Real</span>
+          <strong>Dra. Thais</strong>
+          <span>Especialista em Implantodontia</span>
         </div>
       </div>
     </div>
@@ -1423,36 +1432,26 @@
       <p class="sub">Não é só estético. É recuperar a liberdade de comer, rir, falar e envelhecer com dignidade.</p>
       <div class="before-after-grid">
         <div class="ba-card">
-          <div class="ba-placeholder">
-            <div class="ba-placeholder-icon">📷</div>
-            <p>Foto Antes/Depois 1</p>
-          </div>
-          <div class="ba-label">✦ Resultado real paciente Tríade</div>
-        </div>
-        <div class="ba-card">
-          <div class="ba-placeholder">
-            <div class="ba-placeholder-icon">📷</div>
-            <p>Foto Antes/Depois 2</p>
-          </div>
-          <div class="ba-label">✦ Transformação completa do sorriso</div>
+          <img src="antesdepois-hero.webp" alt="Transformação real - Tríade Odontologia" />
+          <div class="ba-label">✦ Resultado real - Sorriso transformado</div>
         </div>
       </div>
       <div class="results-strip">
-        <div class="result-item">
-          <div class="number">+500</div>
-          <p>Pacientes<br/>Atendidos</p>
-        </div>
-        <div class="result-item">
-          <div class="number">98%</div>
-          <p>Taxa de<br/>Satisfação</p>
-        </div>
         <div class="result-item">
           <div class="number">10+</div>
           <p>Anos de<br/>Experiência</p>
         </div>
         <div class="result-item">
-          <div class="number">0</div>
-          <p>Procedimentos<br/>com Dor</p>
+          <div class="number">100%</div>
+          <p>Taxa de<br/>Satisfação</p>
+        </div>
+        <div class="result-item">
+          <div class="number">CRO/10574</div>
+          <p>Dra. Thaís Reis</p>
+        </div>
+        <div class="result-item">
+          <div class="number">Raio-X</div>
+          <p>Incluso na<br/>Própria Clínica</p>
         </div>
       </div>
     </div>
@@ -1487,8 +1486,8 @@
             </ul>
             <div class="ticket-info">
               <div>
-                <span class="from">A partir de</span>
-                <div class="price">R$ 1.500</div>
+                <span class="from">Condições personalizadas</span>
+                <div class="price" style="font-size:0.95rem; font-family:'Inter',sans-serif; font-weight:600;">Consulte na avaliação</div>
               </div>
               <div class="installment">Parcelamento<br/>disponível</div>
             </div>
@@ -1513,8 +1512,8 @@
             </ul>
             <div class="ticket-info">
               <div>
-                <span class="from">Investimento</span>
-                <div class="price">R$ 15.000+</div>
+                <span class="from">Condições personalizadas</span>
+                <div class="price" style="font-size:0.95rem; font-family:'Inter',sans-serif; font-weight:600;">Consulte na avaliação</div>
               </div>
               <div class="installment">Parcelamento<br/>facilitado</div>
             </div>
@@ -1657,28 +1656,28 @@
         <div class="authority-img-wrap">
           <img src="dra.PNG" alt="Dra. Thais — Cirurgiã-Dentista Tríade Odontologia" style="width:100%; border-radius:6px; object-fit:cover; object-position:top; border:2px solid rgba(201,164,82,0.25); display:block;" />
           <div class="authority-badge-wrap">
-            <strong>CRO/ES</strong>
-            <span>Registro Ativo</span>
+            <strong>CRO/10574</strong>
+            <span>Dra. Thaís Reis</span>
           </div>
         </div>
         <div class="authority-content">
           <span class="section-tag">Quem Cuida de Você</span>
           <h2>A especialista por trás<br /><em class="gold">de cada sorriso transformado.</em></h2>
           <p class="bio">
-            Com formação especializada em Implantodontia e Prótese Dentária, a Dra. dedica sua carreira a casos que exigem precisão, sensibilidade e resultado previsível. Não acredita em "vai dando certo" acredita em planejamento digital, protocolo rigoroso e honestidade com cada paciente.
+            Com formação especializada em Implantodontia e Prótese Dentária, a Dra. Thais dedica sua carreira a casos que exigem precisão, sensibilidade e resultado previsível. Não acredita em "vai dando certo" — acredita em planejamento digital, protocolo rigoroso e honestidade com cada paciente.
             <br /><br />
             Seu maior orgulho não são os certificados na parede. São os pacientes que voltam sorrindo para contar que puderam comer churrasco com a família de novo.
           </p>
           <ul class="credentials-list">
-            <li><div class="cred-dot">✓</div> Especialização em Implantodontia título reconhecido pelo CFO</li>
+            <li><div class="cred-dot">✓</div> Especialização em Implantodontia — título reconhecido pelo CFO</li>
             <li><div class="cred-dot">✓</div> Especialização em Prótese Dentária sobre Implante</li>
             <li><div class="cred-dot">✓</div> Formação em Sedação Consciente (conforto total para fóbicos)</li>
             <li><div class="cred-dot">✓</div> Atualização contínua em planejamento digital e cirurgia guiada</li>
             <li><div class="cred-dot">✓</div> +10 anos de clínica especializada em Vila Velha - ES</li>
           </ul>
-          <a href="https://wa.me/5527999258981?text=Olá%20Dra.!%20Vi%20seu%20perfil%20no%20site%20e%20gostaria%20de%20agendar%20uma%20avaliação." class="btn-whatsapp">
+          <a href="https://wa.me/5527999258981?text=Olá%20Dra.%20Thais!%20Vi%20seu%20perfil%20no%20site%20e%20gostaria%20de%20agendar%20uma%20avaliação." class="btn-whatsapp">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.556 4.123 1.528 5.855L0 24l6.335-1.652A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.8 9.8 0 01-5.028-1.383l-.361-.214-3.735.976.997-3.635-.235-.374A9.786 9.786 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/></svg>
-            Falar com a Dra. Agora
+            Falar com a Dra. Thais
           </a>
         </div>
       </div>
@@ -1764,7 +1763,7 @@
         </div>
         <a href="https://wa.me/5527999258981?text=Olá!%20Quero%20agendar%20minha%20avaliação%20na%20Tríade%20Odontologia.%20Vi%20o%20site%20e%20quero%20saber%20mais%20sobre%20implantes%20e%20prótese%20protocolo." class="btn-whatsapp" style="font-size:1.05rem; padding:20px 44px;">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.127.556 4.123 1.528 5.855L0 24l6.335-1.652A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.8 9.8 0 01-5.028-1.383l-.361-.214-3.735.976.997-3.635-.235-.374A9.786 9.786 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/></svg>
-          Quero Voltar a Sorrir Agendar Avaliação
+          Agendar Avaliação
         </a>
         <div class="cta-urgency">
           <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><circle cx="7" cy="7" r="6" stroke="#C9A452" stroke-width="1.5"/><path d="M7 4v3.5l2 1.5" stroke="#C9A452" stroke-width="1.5" stroke-linecap="round"/></svg>
